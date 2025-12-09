@@ -1,0 +1,25 @@
+http://localhost:3000/jokenpo/criar
+
+JSON: { "jogador1": "Mario" }
+
+http://localhost:3000/jokenpo/entrar/50
+
+JSON: { "jogador2": "Luigi" }
+
+http://localhost:3000/jokenpo/jogar/50
+
+JSON: { 
+  "nome_jogador": "Mario",
+  "jogada": "pedra"
+}
+
+http://localhost:3000/jokenpo/jogar/50
+
+JSON: { 
+  "nome_jogador": "Luigi",
+  "jogada": "tesoura"
+}
+
+http://localhost:3000/ranking
+
+
